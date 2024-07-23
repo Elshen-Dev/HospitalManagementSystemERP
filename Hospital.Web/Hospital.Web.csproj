@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -21,6 +21,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Hospital.Repositories\Hospital.Repositories.csproj" />
+    <ProjectReference Include="..\hospital.Utilities\hospitals.Utilities.csproj" />
+   
   </ItemGroup>
 
   <ItemGroup>
