@@ -13,6 +13,6 @@ namespace Hospital.Models
         public string Type { get; set; }
         public string Status { get; set; }
         public int HospitalId { get; set; }
-        public Hospital Hospital { get; set; }
+        public HospitalInfo Hospital { get; set; }
     }
 }
